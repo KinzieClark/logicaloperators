@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class LogicalOperators : MonoBehaviour {
 
+public string string1;
+public string string2;
+// && is the and operator
+// || is the or operator
+// ! is the 
 	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public void OnButtonClick () {
+		if(string1 == "Thing1" && string2 == "Thing2")
+		{
+			print("These Things are quite tame, oh so tame.");
+		}
+		if(string1 == "Thing1" || string2 == "Thing2")
+		{
+			print("It's fun to have fun if you know what to do.");
+		}
+		if(string1 != "Thing1" && string2 != "Thing2");
+		{
+			print("Oh what a shame, what a shame, what a shame.");
+		}
 	}
 }
