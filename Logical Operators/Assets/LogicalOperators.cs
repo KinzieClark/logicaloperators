@@ -6,9 +6,10 @@ public class LogicalOperators : MonoBehaviour {
 
 public string string1;
 public string string2;
+
 // && is the and operator
 // || is the or operator
-// ! is the 
+// ! is the not operator
 	// Use this for initialization
 	public void OnButtonClick () {
 		if(string1 == "Thing1" && string2 == "Thing2")
@@ -23,5 +24,5 @@ public string string2;
 		{
 			print("Oh what a shame, what a shame, what a shame.");
 		}
-	}
+}
 }
